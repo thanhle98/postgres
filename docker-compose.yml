@@ -5,7 +5,7 @@ services:
     container_name: meal_postgres
     image: postgres
     environment:
-      POSTGRES_USER: meal_admin
+      POSTGRES_USER: meal
       POSTGRES_PASSWORD: meal_bmte_2022
       PGDATA: /data/postgres
     volumes:
